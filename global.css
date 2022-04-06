@@ -1,5 +1,6 @@
 @import url(design-system/layout/style.css);
 @import url(design-system/navbar/style.css);
+@import url(design-system/buttons/style.css);
 
 * {
   box-sizing: border-box;
@@ -8,12 +9,24 @@
 }
 
 h1 {
-  font-size: 30px;
-  background-color: blue;
+  font-size: 40px;
+  background-color: purple;
   margin: 0;
   text-align: center;
+  text-shadow: 3px 1px 3px gray;
 }
 
 nav {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+button {
+  padding: 10px 35px;
+  margin: 0px;
+}
+
+img {
+  width: 20px;
 }
