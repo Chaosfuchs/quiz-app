@@ -1,0 +1,19 @@
+@import url(design-system/layout/style.css);
+@import url(design-system/navbar/style.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 30px;
+  background-color: blue;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: blue;
+}
