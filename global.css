@@ -1,6 +1,11 @@
 @import url(design-system/grid-layout/style.css);
 @import url(design-system/card/style.css);
 
+:root {
+  --color-theme: purple;
+  --shadowcolor: grey;
+}
+
 * {
   box-sizing: border-box;
   padding: 0px;
@@ -9,16 +14,16 @@
 
 h1 {
   font-size: 40px;
-  background-color: purple;
+  background-color: var(--color-theme);
   margin: 0;
   text-align: center;
-  text-shadow: 3px 1px 3px gray;
+  text-shadow: 3px 1px 3px var(--shadowcolor);
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: purple;
+  background-color: var(--color-theme);
 }
 
 img {
