@@ -1,0 +1,13 @@
+.button-card {
+  align-self: center;
+  max-width: 100px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.submit {
+  max-width: 130px;
+  border-radius: 5px;
+}
