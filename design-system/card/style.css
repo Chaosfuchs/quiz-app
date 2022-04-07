@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(/images/paper-texture.jpeg);
+  box-shadow: 3px 3px 5px grey;
+}
+
+.button-card {
+  align-self: center;
+  max-width: 100px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
