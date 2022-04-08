@@ -1,4 +1,8 @@
 /* ONLY IMPORT CSS */
+
+/* Global CSS Sheet */
+@import url(/global.css);
+/* --- */
 @import url(design-system/grid-layout/style.css);
 @import url(design-system/card/style.css);
 @import url(design-system/buttons/style.css);
