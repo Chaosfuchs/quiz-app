@@ -1,7 +1,4 @@
-@import url(design-system/grid-layout/style.css);
-@import url(design-system/card/style.css);
-@import url(design-system/buttons/style.css);
-@import url(design-system/createsection/style.css);
+@import url(/styles.css);
 
 :root {
   --color-theme: purple;
