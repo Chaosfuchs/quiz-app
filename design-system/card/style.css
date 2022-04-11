@@ -8,6 +8,7 @@
   position: relative;
 }
 
+/* Places the Bookmark in the top right of the card */
 .card img {
   position: absolute;
   top: -0.5rem;
