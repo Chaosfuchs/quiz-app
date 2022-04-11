@@ -30,9 +30,3 @@
 .hash {
   padding: 1px 60px;
 }
-
-@media (min-widht: 600px) {
-  .create-frame {
-    align-items: center;
-  }
-}

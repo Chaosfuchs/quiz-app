@@ -3,11 +3,19 @@
   max-width: 100px;
   padding: 5px;
   margin: 15px;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: antiquewhite;
 }
 
 .submit {
   max-width: 130px;
   border-radius: 5px;
+}
+.button-nav {
+  padding: 10px 35px;
+  margin: 0px;
+}
+
+.button-nav img {
+  width: 20px;
 }

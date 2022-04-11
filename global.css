@@ -1,7 +1,7 @@
 /* Global CSS */
 
 :root {
-  --color-theme: purple;
+  --color-theme: rgb(10, 198, 250);
   --shadowcolor: grey;
 }
 
@@ -23,10 +23,6 @@ nav {
   display: flex;
   justify-content: center;
   background-color: var(--color-theme);
-}
-
-img {
-  width: 20px;
 }
 
 section {

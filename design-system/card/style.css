@@ -3,7 +3,13 @@
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 220px;
   background-image: url(/images/paper-texture.jpeg);
   box-shadow: 3px 3px 5px var(--shadowcolor);
+  position: relative;
+}
+
+.card img {
+  position: absolute;
+  top: -0.5rem;
+  right: 2rem;
 }
