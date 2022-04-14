@@ -8,7 +8,8 @@
     "prettier": "prettier *.js",
     "stylelint": "stylelint '**/*.css'",
     "eslint": "eslint *.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "prettier": "2.6.2",
     "stylelint": "^14.6.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^25.0.0"
+    "stylelint-config-standard": "^25.0.0",
+    "husky": "^7.0.0"
   }
 }
