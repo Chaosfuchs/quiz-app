@@ -11,9 +11,10 @@
   max-width: 130px;
   border-radius: 5px;
 }
+
 .button-nav {
   padding: 10px 35px;
-  margin: 0px;
+  margin: 0;
 }
 
 .button-nav img {
