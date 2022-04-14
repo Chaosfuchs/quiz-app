@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "htmlhint": "htmlhint \"**/*.html\"",
-    "prettier": "prettier *.js",
+    "prettier": "prettier --write",
     "stylelint": "stylelint '**/*.css'",
     "eslint": "eslint *.js",
     "test": "npm run htmlhint && npm run stylelint && npm run eslint",
