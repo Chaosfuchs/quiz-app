@@ -4,6 +4,7 @@
   "description": "a small quiz app to learn web technologies",
   "main": "index.html",
   "scripts": {
+    "htmlhint": "htmlhint index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
