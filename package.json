@@ -5,6 +5,9 @@
   "main": "index.html",
   "scripts": {
     "htmlhint": "htmlhint \"**/*.html\"",
+    "prettier": "prettier *.js",
+    "stylelint": "stylelint '**/*.css'",
+    "eslint": "eslint *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
