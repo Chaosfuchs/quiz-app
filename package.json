@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "a small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaosfuchs/quiz-app.git"
+  },
+  "author": "Kerstin Ohlmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaosfuchs/quiz-app/issues"
+  },
+  "homepage": "https://github.com/Chaosfuchs/quiz-app#readme"
+}
