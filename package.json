@@ -4,10 +4,10 @@
   "description": "a small quiz app to learn web technologies",
   "main": "index.html",
   "scripts": {
-    "htmlhint": "htmlhint \"**/*.html\"",
-    "prettier": "prettier --write",
+    "htmlhint": "htmlhint '**/*.html'",
     "stylelint": "stylelint '**/*.css'",
-    "eslint": "eslint *.js",
+    "eslint": "eslint '**/*.js'",
+    "prettier": "prettier --write",
     "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "prepare": "husky install"
   },
