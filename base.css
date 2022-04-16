@@ -1,14 +1,14 @@
 /* Global CSS */
 
 :root {
-  --color-theme: rgb(10, 198, 250);
-  --shadowcolor: rgb(7, 33, 136);
+  --color-theme: rgba(10, 198, 250, 100%);
+  --shadowcolor: rgba(7, 33, 136, 100%);
 }
 
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {

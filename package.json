@@ -1,0 +1,33 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "a small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "htmlhint": "htmlhint '**/*.html'",
+    "stylelint": "stylelint '**/*.css'",
+    "eslint": "eslint '**/*.js'",
+    "prettier": "prettier --write",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaosfuchs/quiz-app.git"
+  },
+  "author": "Kerstin Ohlmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaosfuchs/quiz-app/issues"
+  },
+  "homepage": "https://github.com/Chaosfuchs/quiz-app#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "husky": "^7.0.0"
+  }
+}
