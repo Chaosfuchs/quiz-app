@@ -8,17 +8,20 @@
   max-width: 350px;
 }
 
+.question {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+
 /* Places the Bookmark in the top right of the card */
-.card img {
+.card svg {
   position: absolute;
   top: -0.5rem;
-  right: 2rem;
+  right: 0.8rem;
 }
 
-.card img:hover {
-  color: grey;
-}
-
-.bookmark--black {
-  color: black;
+.hidden {
+  display: none;
 }

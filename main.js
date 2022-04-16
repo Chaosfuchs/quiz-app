@@ -1,10 +1,17 @@
 const bookmarkToggle = document.querySelector('[data-js="bookmarkToggle"]');
 
-function toggleBookmark() {
-  bookmarkToggle.addEventListener("click", () => {
-    bookmarkToggle.classList.toggle("bookmark--black");
-    console.log(bookmarkToggle);
-  });
-}
+bookmarkToggle.addEventListener('click', () => {
+  bookmarkToggle.classList.toggle('bookmark--black');
+});
 
-toggleBookmark();
+const cardToggle = document.querySelector('[data-js="cardToggle"]');
+const buttonToggle = document.querySelector('[data-js="buttonToggle"]');
+
+buttonToggle.addEventListener('click', () => {
+  cardToggle.classList.toggle('hidden');
+  if (cardToggle.classList.contains('hidden')) {
+    buttonToggle.textContent = 'Show Answer';
+  } else {
+    buttonToggle.textContent = 'Hide Answer';
+  }
+});
