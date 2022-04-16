@@ -1,3 +1,10 @@
 .bookmark {
-  width: 35px;
+  width: 45px;
+  color: transparent;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.bookmark--black {
+  color: rgb(41, 186, 226);
 }
