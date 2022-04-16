@@ -5,6 +5,7 @@
   background-image: url(/images/paper-texture.jpeg);
   box-shadow: 3px 3px 5px var(--shadowcolor);
   position: relative;
+  max-width: 350px;
 }
 
 /* Places the Bookmark in the top right of the card */

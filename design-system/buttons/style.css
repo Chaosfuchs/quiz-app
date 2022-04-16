@@ -13,7 +13,8 @@
 }
 
 .button-nav {
-  padding: 10px 35px;
+  padding: 15px 0;
+  flex: 1;
   margin: 0;
 }
 

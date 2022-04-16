@@ -8,13 +8,14 @@
 .content {
   padding: 10px 5px 40px;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to bottom, lightblue, rgb(29, 29, 230));
 }
 
 .navbar {
+  display: flex;
   position: fixed;
   bottom: 0;
   left: 0;
