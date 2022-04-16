@@ -1,8 +1,8 @@
 /* Global CSS */
 
 :root {
-  --color-theme: rgba(10, 198, 250, 100%);
-  --shadowcolor: rgba(7, 33, 136, 100%);
+  --color-theme: #006466;
+  --shadowcolor: rgb(4, 17, 68);
 }
 
 * {
@@ -16,7 +16,7 @@ h1 {
   background-color: var(--color-theme);
   margin: 0;
   text-align: center;
-  text-shadow: 3px 1px 3px lightblue;
+  text-shadow: 3px 1px 3px #312244;
 }
 
 nav {

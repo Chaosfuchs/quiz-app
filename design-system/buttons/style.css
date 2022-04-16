@@ -4,7 +4,8 @@
   padding: 5px;
   margin: 15px;
   border-radius: 10px;
-  background-color: antiquewhite;
+  background-color: #144552;
+  color: white;
 }
 
 .submit {
@@ -13,11 +14,12 @@
 }
 
 .button-nav {
-  padding: 15px 0;
+  padding: 10px 0;
   flex: 1;
   margin: 0;
+  background-color: var(--color-theme);
 }
 
-.button-nav img {
-  width: 20px;
+.button-nav svg {
+  color: #4d194d;
 }
