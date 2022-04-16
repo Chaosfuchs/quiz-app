@@ -13,3 +13,11 @@
   top: -0.5rem;
   right: 2rem;
 }
+
+.card img:hover {
+  color: grey;
+}
+
+.bookmark--black {
+  color: black;
+}
