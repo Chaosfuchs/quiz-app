@@ -1,3 +1,4 @@
+/* Card 1 */
 const bookmarkToggle = document.querySelector('[data-js="bookmarkToggle"]');
 
 bookmarkToggle.addEventListener('click', () => {
@@ -45,15 +46,34 @@ const createButton = document.querySelector('[data-js="creation"]');
 const profileButton = document.querySelector('[data-js="profile"]');
 
 homepageButton.addEventListener('click', () => {
-  homepage.classList.toggle('hidden');
-  bookmarks.classList.toggle('hidden');
-  create.classList.toggle('hidden');
-  profile.classList.toggle('hidden');
+  homepage.classList.add('visible');
+  homepage.classList.remove('hidden');
+  bookmarks.classList.add('hidden');
+  bookmarks.classList.remove('visible');
+  create.classList.add('hidden');
+  create.classList.remove('visible');
+  profile.classList.add('hidden');
+  profile.classList.remove('visible');
 });
 
 bookmarksButton.addEventListener('click', () => {
-  homepage.classList.toggle('hidden');
-  bookmarks.classList.toggle('hidden');
-  create.classList.toggle('hidden');
-  profile.classList.toggle('hidden');
+  homepage.classList.add('hidden');
+  homepage.classList.remove('visible');
+  bookmarks.classList.remove('hidden');
+  bookmarks.classList.add('visible');
+  create.classList.add('hidden');
+  create.classList.remove('visible');
+  profile.classList.add('hidden');
+  profile.classList.remove('visible');
+});
+
+createButton.addEventListener('click', () => {
+  homepage.classList.add('hidden');
+  homepage.classList.remove('visible');
+  bookmarks.classList.remove('visible');
+  bookmarks.classList.add('hidden');
+  create.classList.add('visible');
+  create.classList.remove('hidden');
+  profile.classList.add('hidden');
+  profile.classList.remove('visible');
 });
