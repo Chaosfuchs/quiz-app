@@ -15,3 +15,45 @@ buttonToggle.addEventListener('click', () => {
     buttonToggle.textContent = 'Hide Answer';
   }
 });
+/* Card 2 */
+const bookmarkToggle2 = document.querySelector('[data-js="bookmarkToggle2"]');
+
+bookmarkToggle2.addEventListener('click', () => {
+  bookmarkToggle2.classList.toggle('bookmark--black');
+});
+
+const cardToggle2 = document.querySelector('[data-js="cardToggle2"]');
+const buttonToggle2 = document.querySelector('[data-js="buttonToggle2"]');
+
+buttonToggle2.addEventListener('click', () => {
+  cardToggle2.classList.toggle('hidden');
+  if (cardToggle2.classList.contains('hidden')) {
+    buttonToggle2.textContent = 'Show Answer';
+  } else {
+    buttonToggle2.textContent = 'Hide Answer';
+  }
+});
+
+const homepage = document.querySelector('[data-js="homesection"]');
+const bookmarks = document.querySelector('[data-js="bookmarksection"]');
+const create = document.querySelector('[data-js="createsection"]');
+const profile = document.querySelector('[data-js="profilesection"]');
+
+const homepageButton = document.querySelector('[data-js="home"]');
+const bookmarksButton = document.querySelector('[data-js="book"]');
+const createButton = document.querySelector('[data-js="creation"]');
+const profileButton = document.querySelector('[data-js="profile"]');
+
+homepageButton.addEventListener('click', () => {
+  homepage.classList.toggle('hidden');
+  bookmarks.classList.toggle('hidden');
+  create.classList.toggle('hidden');
+  profile.classList.toggle('hidden');
+});
+
+bookmarksButton.addEventListener('click', () => {
+  homepage.classList.toggle('hidden');
+  bookmarks.classList.toggle('hidden');
+  create.classList.toggle('hidden');
+  profile.classList.toggle('hidden');
+});

@@ -9,3 +9,11 @@
 .createpage {
   display: none;
 }
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: visible;
+}
