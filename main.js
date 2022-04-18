@@ -40,12 +40,10 @@ const headline = document.querySelector('[data-js="header"]');
 const homepage = document.querySelector('[data-js="homesection"]');
 const bookmarks = document.querySelector('[data-js="bookmarksection"]');
 const create = document.querySelector('[data-js="createsection"]');
-const profile = document.querySelector('[data-js="profilesection"]');
 
 const homepageButton = document.querySelector('[data-js="home"]');
 const bookmarksButton = document.querySelector('[data-js="book"]');
 const createButton = document.querySelector('[data-js="creation"]');
-const profileButton = document.querySelector('[data-js="profile"]');
 
 homepageButton.addEventListener('click', () => {
   headline.textContent = 'Quizelton';

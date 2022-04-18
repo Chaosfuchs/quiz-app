@@ -19,8 +19,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/stars-background.webp);
-  /* background-image: linear-gradient(to bottom, lightblue, rgb(29, 29, 230)); */
+  background-image: url(/images/stars-background.webp); /* background-image: linear-gradient(to bottom, lightblue, rgb(29, 29, 230)); */
 }
 
 .navbar {
