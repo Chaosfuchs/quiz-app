@@ -11,8 +11,73 @@
   </head>
   <body>
     <div class="mobile-grid">
-      <h1>Quizelton</h1>
-      <main class="content" id="home">
+      <!-- Begin of the Homepage (Display: visible) -->
+      <h1 class="header" data-js="header">Quizelton</h1>
+      <main class="content homepage" data-js="homesection">
+        <section class="card">
+          <svg data-js="bookmarkToggle" class="bookmark" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+            />
+          </svg>
+          <div class="question">
+            <h3>Question:</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quae
+              velit cupiditate blanditiis quos voluptate sequi? Nisi, vel amet
+              modi ut atque adipisci obcaecati aut necessitatibus illum
+              doloremque quo similique?
+            </p>
+            <button class="button-card" data-js="buttonToggle">
+              Show Answer
+            </button>
+            <span>#tag</span>
+            <div class="answer hidden" data-js="cardToggle">
+              <h3>Answer:</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quae
+                velit cupiditate blanditiis quos voluptate sequi? Nisi, vel amet
+                modi ut atque adipisci obcaecati aut necessitatibus illum
+                doloremque quo similique?
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <svg data-js="bookmarkToggle2" class="bookmark" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+            />
+          </svg>
+          <div class="question">
+            <h3>Question:</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quae
+              velit cupiditate blanditiis quos voluptate sequi? Nisi, vel amet
+              modi ut atque adipisci obcaecati aut necessitatibus illum
+              doloremque quo similique?
+            </p>
+            <button class="button-card" data-js="buttonToggle2">
+              Show Answer
+            </button>
+            <span>#tag</span>
+            <div class="answer hidden" data-js="cardToggle2">
+              <h3>Answer:</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quae
+                velit cupiditate blanditiis quos voluptate sequi? Nisi, vel amet
+                modi ut atque adipisci obcaecati aut necessitatibus illum
+                doloremque quo similique?
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- End of the Homepage -->
+      <!-- Begin of the Bookmarkpage (Display: None)-->
+      <main class="content bookmarkpage hidden" data-js="bookmarksection">
         <section class="card">
           <svg data-js="bookmarkToggle" class="bookmark" viewBox="0 0 24 24">
             <path
@@ -44,8 +109,32 @@
           </div>
         </section>
       </main>
+      <!-- End of the Bookmarkpage -->
+      <!-- Begin of the Createpage (Display: none) -->
+      <main class="content createpage hidden" data-js="createsection">
+        <div class="create-frame">
+          <section class="create question">
+            <h3>Write here a Question for your card:</h3>
+            <input class="input" type="text" />
+          </section>
+          <section class="create answer">
+            <h3>Write here the Answer:</h3>
+            <input class="input" type="text" />
+          </section>
+          <section class="create tags">
+            <h3>Insert your Tags:</h3>
+            <input class="input hash" type="text" />
+          </section>
+          <button class="submit">Submit your Question-Card</button>
+        </div>
+      </main>
+      <!-- End of the Createpage -->
+      <!-- Begin of the Profilepage -->
+
+      <!-- End of the Profilepage -->
+      <!-- Begin Navigation -->
       <nav class="navbar">
-        <button class="button-nav">
+        <button class="button-nav home" data-js="home">
           <svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
@@ -53,7 +142,7 @@
             />
           </svg>
         </button>
-        <button class="button-nav">
+        <button class="button-nav book" data-js="book">
           <svg style="width: 30px; height: 30px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
@@ -61,7 +150,7 @@
             />
           </svg>
         </button>
-        <button class="button-nav">
+        <button class="button-nav creation" data-js="creation">
           <svg style="width: 30px; height: 30px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
@@ -69,7 +158,7 @@
             />
           </svg>
         </button>
-        <button class="button-nav">
+        <button class="button-nav profile" data-js="profile">
           <svg style="width: 30px; height: 30px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
@@ -78,6 +167,7 @@
           </svg>
         </button>
       </nav>
+      <!-- End of Navigation -->
     </div>
     <!-- JavaScript -->
     <script src="/main.js"></script>
