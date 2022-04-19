@@ -8,3 +8,7 @@
 .bookmark-color {
   color: rgb(97, 2, 191);
 }
+
+.bookmark:hover {
+  color: rgba(112, 4, 158, 0.69);
+}
