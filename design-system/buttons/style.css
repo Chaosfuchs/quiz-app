@@ -24,6 +24,10 @@
   background-color: var(--color-theme);
 }
 
+.button-nav:hover {
+  background-color: rgb(4, 124, 92);
+}
+
 .button-nav svg {
   color: #4d194d;
 }
