@@ -2,7 +2,7 @@
 const bookmarkToggle = document.querySelector('[data-js="bookmarkToggle"]');
 
 bookmarkToggle.addEventListener('click', () => {
-  bookmarkToggle.classList.toggle('bookmark--black');
+  bookmarkToggle.classList.toggle('bookmark-color');
 });
 
 const cardToggle = document.querySelector('[data-js="cardToggle"]');
@@ -20,7 +20,7 @@ buttonToggle.addEventListener('click', () => {
 const bookmarkToggle2 = document.querySelector('[data-js="bookmarkToggle2"]');
 
 bookmarkToggle2.addEventListener('click', () => {
-  bookmarkToggle2.classList.toggle('bookmark--black');
+  bookmarkToggle2.classList.toggle('bookmark-color');
 });
 
 const cardToggle2 = document.querySelector('[data-js="cardToggle2"]');
