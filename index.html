@@ -10,10 +10,10 @@
     <!-- End Stylesheets -->
   </head>
   <body>
-    <div class="mobile-grid">
+    <main class="mobile-grid">
       <!-- Begin of the Homepage (Display: visible) -->
       <h1 class="header" data-js="header">Quizelton</h1>
-      <main class="content homepage" data-js="homesection">
+      <div class="content homepage" data-js="homesection">
         <section class="card">
           <svg data-js="bookmarkToggle" class="bookmark" viewBox="0 0 24 24">
             <path
@@ -74,10 +74,10 @@
             </div>
           </div>
         </section>
-      </main>
+      </div>
       <!-- End of the Homepage -->
       <!-- Begin of the Bookmarkpage (Display: None)-->
-      <main class="content bookmarkpage hidden" data-js="bookmarksection">
+      <div class="content bookmarkpage hidden" data-js="bookmarksection">
         <section class="card">
           <svg
             data-js="bookmarkToggle"
@@ -112,10 +112,10 @@
             </div>
           </div>
         </section>
-      </main>
+      </div>
       <!-- End of the Bookmarkpage -->
       <!-- Begin of the Createpage (Display: none) -->
-      <main class="content createpage hidden" data-js="createsection">
+      <div class="content createpage hidden" data-js="createsection">
         <div class="create-frame">
           <section class="create question">
             <h3>Write here a Question for your card:</h3>
@@ -131,7 +131,7 @@
           </section>
           <button class="submit">Submit your Question-Card</button>
         </div>
-      </main>
+      </div>
       <!-- End of the Createpage -->
       <!-- Begin of the Profilepage -->
 
@@ -172,7 +172,7 @@
         </button>
       </nav>
       <!-- End of Navigation -->
-    </div>
+    </main>
     <!-- JavaScript -->
     <script src="/main.js"></script>
   </body>
