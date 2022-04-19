@@ -8,6 +8,10 @@
   color: white;
 }
 
+.button-card:hover {
+  background-color: #4d194d;
+}
+
 .submit {
   max-width: 130px;
   border-radius: 5px;
