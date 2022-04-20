@@ -2,6 +2,7 @@ export function inizializeCardToggling() {
   const cardToggle = document.querySelector('[data-js="cardToggle"]');
   const buttonToggle = document.querySelector('[data-js="buttonToggle"]');
 
+  // buttonToggle.forEach(showAnswer => {
   buttonToggle.addEventListener('click', () => {
     cardToggle.classList.toggle('hidden');
     if (cardToggle.classList.contains('hidden')) {
@@ -10,4 +11,5 @@ export function inizializeCardToggling() {
       buttonToggle.textContent = 'Hide Answer';
     }
   });
+  // });
 }
