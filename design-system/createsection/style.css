@@ -3,8 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-height: 220px;
-  max-width: 500px;
   background-image: url(/images/paper-texture.jpeg);
   box-shadow: 3px 3px 5px var(--shadowcolor);
 }
@@ -14,18 +12,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-height: 200px;
-  max-width: 500px;
 }
 
-.answer {
-  padding: 10px 20px;
+.discription {
+  font-weight: bold;
+  font-size: 13px;
 }
 
-.input {
-  padding: 40px 60px;
-}
-
-.hash {
-  padding: 1px 60px;
+.textfield {
+  font-size: 20px;
+  margin: 10px;
 }
