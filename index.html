@@ -11,7 +11,7 @@
   </head>
   <body>
     <main class="mobile-grid">
-      <!-- Begin of the Homepage (Display: visible) -->
+      <!-- Begin of the Homepage -->
       <h1 class="header" data-js="header">Quizelton</h1>
       <div class="content homepage" data-js="homesection">
         <section class="card">
@@ -166,7 +166,7 @@
         </section>
       </div>
       <!-- End of the Homepage -->
-      <!-- Begin of the Bookmarkpage (Display: None)-->
+      <!-- Begin of the Bookmarkpage -->
       <div class="content bookmarkpage hidden" data-js="bookmarksection">
         <section class="card">
           <svg
@@ -204,22 +204,22 @@
         </section>
       </div>
       <!-- End of the Bookmarkpage -->
-      <!-- Begin of the Createpage (Display: none) -->
+      <!-- Begin of the Createpage -->
       <div class="content createpage hidden" data-js="createsection">
         <div class="create-frame">
-          <section class="create question">
-            <h3>Write here a Question for your card:</h3>
-            <input class="input" type="text" />
+          <section class="create card">
+            <lable class="discription"
+              >Write here a Question for your card:</lable
+            >
+            <textarea class="textfield"></textarea>
+            <lable class="discription"
+              >Write here a Answer for your card:</lable
+            >
+            <textarea class="textfield"></textarea>
+            <lable class="discription">Tags:</lable>
+            <textarea class="textfield"></textarea>
+            <button class="submit">Submit your Card</button>
           </section>
-          <section class="create answer">
-            <h3>Write here the Answer:</h3>
-            <input class="input" type="text" />
-          </section>
-          <section class="create tags">
-            <h3>Insert your Tags:</h3>
-            <input class="input hash" type="text" />
-          </section>
-          <button class="submit">Submit your Question-Card</button>
         </div>
       </div>
       <!-- End of the Createpage -->

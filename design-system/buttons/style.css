@@ -13,8 +13,16 @@
 }
 
 .submit {
+  margin: 5px;
+  padding: 5px;
   max-width: 130px;
   border-radius: 5px;
+  background-color: #144552;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #4d194d;
 }
 
 .button-nav {

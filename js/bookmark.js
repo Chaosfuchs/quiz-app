@@ -1,7 +1,11 @@
 export function inizializeBookmarkToggling() {
-  const bookmarkToggle = document.querySelector('[data-js="bookmarkToggle"]');
+  const bookmarkToggle = document.querySelectorAll(
+    '[data-js="bookmarkToggle"]'
+  );
 
-  bookmarkToggle.addEventListener('click', () => {
-    bookmarkToggle.classList.toggle('bookmark-color');
+  bookmarkToggle.forEach(bookmarks => {
+    bookmarks.addEventListener('click', () => {
+      bookmarks.classList.toggle('bookmark-color');
+    });
   });
 }
