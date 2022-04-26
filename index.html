@@ -224,16 +224,21 @@
       </div>
       <!-- End of the Createpage -->
       <!-- Begin of the Profilepage -->
-      <div class="content profilepage profile hidden" data-js="profilesection">
+      <div class="content hidden" data-js="profilesection">
         <div class="create-frame">
-          <section class="create card">
-            <img src="/images/cat.webp" alt="profilepicture-example" />
-            <h1 class="profileHeader">Name</h1>
-            <h3 class="profileHeaderAbout">About myself:</h3>
-            <h3 class="profileHeaderSkills">Skilltags</h3>
-            <lable class="skills">HTML</lable><lable class="skills">CSS</lable
-            ><lable class="skills">JavaScript</lable
-            ><lable class="skills">making some new Apps</lable>
+          <section class="profile">
+            <div class="wrapper">
+              <img src="/images/cat.webp" alt="profilepicture-example" />
+              <h2 class="profileHeader">Name</h2>
+            </div>
+            <div class="myself">
+              <h3>About myself:</h3>
+              <p>This is a text about myself and my hobbys.</p>
+            </div>
+            <div class="skills">
+              <h3>Skills</h3>
+              <lable>HTML, CSS, JavaScript, etc.</lable>
+            </div>
             <button class="logoutButton">Logout</button>
           </section>
         </div>
@@ -265,7 +270,7 @@
             />
           </svg>
         </button>
-        <button class="button-nav profile" data-js="profile">
+        <button class="button-nav" data-js="profile">
           <svg style="width: 30px; height: 30px" viewBox="0 0 24 24">
             <path
               fill="currentColor"
