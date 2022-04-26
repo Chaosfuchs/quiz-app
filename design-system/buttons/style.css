@@ -4,12 +4,12 @@
   padding: 7.5px;
   margin: 15px;
   border-radius: 10px;
-  background-color: #144552;
-  color: white;
+  background-color: var(--buttonColor);
+  color: var(--fontColorButtons);
 }
 
 .button-card:hover {
-  background-color: #4d194d;
+  background-color: var(--hoverEffectButtonsPurple);
 }
 
 .submit {
@@ -17,12 +17,12 @@
   padding: 5px;
   max-width: 130px;
   border-radius: 5px;
-  background-color: #144552;
-  color: white;
+  background-color: var(--buttonColor);
+  color: var(--fontColorButtons);
 }
 
 .submit:hover {
-  background-color: #4d194d;
+  background-color: var(--hoverEffectButtonsPurple);
 }
 
 .button-nav {
@@ -37,5 +37,14 @@
 }
 
 .button-nav svg {
-  color: #4d194d;
+  color: var(--hoverEffectButtonsPurple);
+}
+
+.logoutButton {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: var(--buttonColor);
+  color: var(--fontColorButtons);
+  max-width: 100px;
 }

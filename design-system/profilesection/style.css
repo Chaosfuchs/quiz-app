@@ -1,4 +1,31 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.profileHeader {
+  margin: 20px;
+}
+
 .profile {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column wrap;
+  background-image: url(/images/paper-texture.jpeg);
+  box-shadow: 3px 3px 5px var(--shadowcolor);
+}
+
+.myself {
+  margin: 20px;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
