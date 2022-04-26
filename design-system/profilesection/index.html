@@ -9,15 +9,21 @@
     <link rel="stylesheet" href="/design-system/profilesection/style.css" />
   </head>
   <body>
-    <div class="content profilepage profile hidden" data-js="profilesection">
+    <div class="content" data-js="profilesection">
       <div class="create-frame">
-        <section class="create card">
-          <img src="/images/cat.webp" alt="profilepicture-example" />
-          <h1>Name</h1>
-          <h3>About myself:</h3>
-          <h4>Skilltags</h4>
-          <lable>HTML</lable>CSS<lable>JavaScript</lable
-          ><lable>making some new Apps</lable>
+        <section class="profile">
+          <div class="wrapper">
+            <img src="/images/cat.webp" alt="profilepicture-example" />
+            <h2 class="profileHeader">Name</h2>
+          </div>
+          <div class="myself">
+            <h3>About myself:</h3>
+            <p>This is a text about myself and my hobbys.</p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <lable>HTML, CSS, JavaScript, etc.</lable>
+          </div>
           <button class="logoutButton">Logout</button>
         </section>
       </div>
