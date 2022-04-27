@@ -14,7 +14,7 @@
   flex-flow: column wrap;
   background-image: url(/images/paper-texture.jpeg);
   box-shadow: 3px 3px 5px var(--shadowcolor);
-  max-width: 330px;
+  max-width: 400px;
 }
 
 .myself {
